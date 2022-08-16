@@ -6,7 +6,9 @@ g++ zuc.cpp zuc.h BIT.h main.cpp -pthread -O3 -std=c++11 -march=native -fopenmp
 You can change the configuration in main.cpp.
 
 ---If you want to test the bias in the keystream, please define _TEST_KEYSTREAM_.
+
 ---If you want to test the bias in the LFSR, please define _TEST_INTERNAL_STATE_.
+
 ---They both cannot be defined at the same time.
 
 ---You can modify the value of threadNum according to your machines.
